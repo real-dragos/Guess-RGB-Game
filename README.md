@@ -6,18 +6,18 @@ You just have to choose a color from a given list of colors based on its RGB cod
 
 ## Some screenshots
 
-![image of the game][game image 1]
+![image of the game][game_image_1]
 
-![image of the game][game image 2]
+![image of the game][game_image_2]
 
-![image of the game][game image 3]
+![image of the game][game_image_3]
 
-![image of the game][game image 4]
+![image of the game][game_image_4]
 
-[game image 1]: https://imgur.com/6taLWda
+[game_image_1]: https://imgur.com/6taLWda.jpg
 
-[game image 2]: https://imgur.com/a/Zg96kvS
+[game_image_2]: https://imgur.com/ALCWxa5.jpg
 
-[game image 3]: https://imgur.com/a/Zg96kvS
+[game_image_3]: https://imgur.com/I1OD5er.jpg
 
-[game image 4]: https://imgur.com/a/Zg96kvS
+[game_image_4]: https://imgur.com/pZAJH0C.jpg
