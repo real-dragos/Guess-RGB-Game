@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background: #232323;
+}
+
+header{
+    text-align: center;
+    background-color:  #3173ec;
+    padding: 25px;
+}
+
+header h1{
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+header h1 > #given-color{
+    display: block;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#nav-menu{
+    background: #ffffff;
+    padding: 0 20px;
+}
+
+#nav-menu .container{
+    justify-content: space-between;
+}
+
+#nav-menu .nav-group{
+    margin: 0 10px;
+}
+
+#nav-menu .nav-item{
+    display: block;
+    text-decoration: none;
+    color: #3173ec;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+#nav-menu #message{
+    display: block;
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#nav-menu .nav-item:hover{
+    background-color: #3173ec;
+    color: #ffffff;
+}
+
+#difficulty{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#difficulty .nav-item{
+    flex-grow: 1;
+    text-align: center;
+}
+
+#difficulty .selected{
+    background-color: #3173ec;
+    color: #ffffff;
+}
+
+#game-interface{
+    padding: 10px;
+}
+
+#game-interface .container{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#game-interface .color-block{
+    position: relative;
+    width: 30%;
+    padding-top: 30%;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#game-interface .color-block:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+@media all and (max-width: 600px){
+    #nav-menu .container{
+        align-items: center;
+    }
+
+    #difficulty{
+        flex-direction: column;
+    }
+    header h1{
+        font-size: 1.4rem;
+    }
+}
+
+
+
+
+
